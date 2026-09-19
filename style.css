@@ -1,0 +1,42 @@
+header {
+  background-color: gray;
+  color: white;
+  font-family: cursive;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+body {
+  background-color: brown;
+}
+
+main {
+  background-color: aqua;
+  color: white;
+  font-family: cursive;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+section {
+  background-color: chartreuse;
+  color: white;
+  font-family: cursive;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+h1 {
+  color: red
+}
+
+h2 {
+  color: blue
+}
+
+p {
+  color: yellow
+}
