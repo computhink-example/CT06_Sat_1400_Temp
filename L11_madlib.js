@@ -29,6 +29,10 @@ function setup() {
     adjectiveField.position(width / 2 + offsetX, height * 0.2 + offsetY + 100);
     adverbField.position(width / 2 + offsetX, height * 0.2 + offsetY + 150);
     placeField.position(width / 2 + offsetX, height * 0.2 + offsetY + 200);
+}
+
+function draw() {
+    background(100);
 
     // Text beside input
     text("Enter a noun:", width * 0.2, height * 0.2 + offsetY)
@@ -36,8 +40,4 @@ function setup() {
     text("Enter a adjective:", width * 0.2, height * 0.2 + offsetY + 100)
     text("Enter a adverb:", width * 0.2, height * 0.2 + offsetY + 150)
     text("Enter a place:", width * 0.2, height * 0.2 + offsetY + 200)
-}
-
-function draw() {
-    background(100);
 }
