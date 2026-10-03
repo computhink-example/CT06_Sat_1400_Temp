@@ -64,4 +64,5 @@ function generateStory() {
     let place = placeField.value();
 
     // python f-string (f"a {noun} is {verb}ing")
+    // js templates 
 }
