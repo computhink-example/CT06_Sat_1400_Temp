@@ -14,10 +14,10 @@ function setup() {
 
     // Create input fields
     nounField = createInput();
-    nounField = createInput();
-    nounField = createInput();
-    nounField = createInput();
-    nounField = createInput();
+    verbField = createInput();
+    adjectiveField = createInput();
+    adverbField = createInput();
+    placeField = createInput();
 }
 
 function draw() {
