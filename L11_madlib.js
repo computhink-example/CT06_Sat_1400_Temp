@@ -64,7 +64,7 @@ function generateStory() {
     let place = placeField.value();
 
     // python f-string (f"a {noun} is {verb}ing")
-    // js templates `a ${noun} is ${verb}ing` ```````` """"
+    // js templates `a ${noun} is ${verb}ing` backtick
 
     let story = `The ${adjective} ${noun} decided to ${verb} ${adverb} at the ${place}.`;
 
