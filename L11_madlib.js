@@ -34,6 +34,7 @@ function setup() {
     // Create button
     submitButton = createButton("Generate Story");
     submitButton.position(width / 2 + offsetX, height * 0.2 + offsetY + 250);
+    // 
     submitButton.mousePressed(buttonExample);
 }
 
