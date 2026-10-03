@@ -8,7 +8,7 @@ function setup() {
     createCanvas(600, 600);
 
     // Set text settings
-    fill(255, 255, 0);
+    fill(255, 255, 255);
     textSize(30);
     textAlign(CENTER, CENTER);
 
