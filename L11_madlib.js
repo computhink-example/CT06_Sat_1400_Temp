@@ -50,7 +50,7 @@ function draw() {
     console.log(nounField.value());
 }
 
-// Function to trigger
+// Function for button to trigger when clicked
 function buttonExample() {
     console.log("Button Clicked!");
 }
