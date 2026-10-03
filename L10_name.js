@@ -1,5 +1,6 @@
 let inputText; // Stores user input
 let displayText = "Your Name Here"; // Text to display on canvas
+let colourPicker;
 
 function setup() {
     createCanvas(600, 400);
