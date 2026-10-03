@@ -32,7 +32,7 @@ function setup() {
     placeField.position(width / 2 + offsetX, height * 0.2 + offsetY + 200);
 
     // Create button
-    submitButton = createButton();
+    submitButton = createButton("Submit");
 }
 
 function draw() {
