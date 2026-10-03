@@ -67,7 +67,7 @@ function generateStory() {
     // js templates `a ${noun} is ${verb}ing`
 
     let story = `The ${adjective} ${noun} decided to ${verb} ${adverb}
-                 at the ${place}`; // `backtick`
+                 at the ${place}. `; // `backtick`
 
     console.log(story);
 }
