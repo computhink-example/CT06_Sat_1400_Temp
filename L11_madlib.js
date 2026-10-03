@@ -3,7 +3,7 @@ let verbField;
 let adjectiveField;
 let adverbField;
 let placeField;
-
+let submitButton;
 
 function setup() {
     createCanvas(600, 600);
