@@ -49,3 +49,8 @@ function draw() {
 
     console.log(nounField.value());
 }
+
+// Function to trigger
+function buttonExample() {
+    
+}
