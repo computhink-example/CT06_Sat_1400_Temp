@@ -3,7 +3,8 @@ let verbField;
 let adjectiveField;
 let adverbField;
 let placeField;
-    // Offset to canvas position
+
+// Offset to canvas position
 let offsetX = this.canvas.offsetLeft;
 let offsetY = this.canvas.offsetTop;
 
