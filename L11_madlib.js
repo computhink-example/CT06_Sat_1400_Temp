@@ -9,7 +9,7 @@ function setup() {
 
     // Set text settings
     fill(255, 255, 0);
-    textSize(40);
+    textSize(30);
     textAlign(CENTER, CENTER);
 
     // Create input fields
@@ -33,7 +33,7 @@ function setup() {
 
 function draw() {
     // Reset canvas
-    background(100);
+    background(200);
 
     // Text beside input
     text("Enter a noun:", width * 0.2, height * 0.2)
