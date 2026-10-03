@@ -57,7 +57,7 @@ function buttonExample() {
 
 function generateStory() {
     // Get value from all input fields
-    let noun = nounField.value();
+    let nounField = nounField.value();
     let verb = verbField.value();
     let adjective = adjectiveField.value();
     let adverb = adverbField.value();
