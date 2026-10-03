@@ -26,9 +26,9 @@ function setup() {
     // Position input fields
     nounField.position(width / 2 + offsetX, height / 2 + offsetY);
     verbField.position(width / 2 + offsetX, height / 2 + offsetY + 50);
-    adjectiveField.position(width / 2 + offsetX, height / 2 + offsetY);
-    adverbField.position(width / 2 + offsetX, height / 2 + offsetY);
-    placeField.position(width / 2 + offsetX, height / 2 + offsetY);
+    adjectiveField.position(width / 2 + offsetX, height / 2 + offsetY + 10);
+    adverbField.position(width / 2 + offsetX, height / 2 + offsetY + 2);
+    placeField.position(width / 2 + offsetX, height / 2 + offsetY + 50);
 }
 
 function draw() {
