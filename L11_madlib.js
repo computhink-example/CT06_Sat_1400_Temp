@@ -32,6 +32,7 @@ function setup() {
 }
 
 function draw() {
+    // Reset canvas
     background(100);
 
     // Text beside input
