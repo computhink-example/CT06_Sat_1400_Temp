@@ -24,11 +24,11 @@ function setup() {
     let offsetY = this.canvas.offsetTop;
 
     // Position input fields
-    for (let i = 0; i < 5; i++){
-        
-    }
     nounField.position(width / 2 + offsetX, height / 2 + offsetY);
-
+    nounField.position(width / 2 + offsetX, height / 2 + offsetY);
+    nounField.position(width / 2 + offsetX, height / 2 + offsetY);
+    nounField.position(width / 2 + offsetX, height / 2 + offsetY);
+    nounField.position(width / 2 + offsetX, height / 2 + offsetY);
 }
 
 function draw() {
