@@ -52,5 +52,5 @@ function draw() {
 
 // Function to trigger
 function buttonExample() {
-    
+    console.log("Button Clicked!");
 }
