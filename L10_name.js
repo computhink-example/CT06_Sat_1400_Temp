@@ -28,6 +28,7 @@ function setup() {
 }
 
 function draw() {
+    // Set background colour to 
     background(colourPicker.value());
 
     text(displayText, width / 2, height * 0.3);
