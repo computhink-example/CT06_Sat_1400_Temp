@@ -63,5 +63,5 @@ function generateStory() {
     let adverb = adverbField.value();
     let place = placeField.value();
 
-    // python f-string ("a {noun} is {verb}ing")
+    // python f-string (f"a {noun} is {verb}ing")
 }
