@@ -12,9 +12,12 @@ function setup() {
     textSize(40);
     textAlign(CENTER, CENTER);
 
-    // Create input field
+    // Create input fields
     nounField = createInput();
-
+    nounField = createInput();
+    nounField = createInput();
+    nounField = createInput();
+    nounField = createInput();
 }
 
 function draw() {
