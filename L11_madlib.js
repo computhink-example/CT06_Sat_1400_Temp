@@ -1,6 +1,8 @@
 let nounField;
 let verbField;
-
+let adjField;
+let adverbField;
+let verbField;
 
 function setup() {
     createCanvas(600, 600);
