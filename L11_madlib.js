@@ -59,5 +59,5 @@ function buttonExample() {
 
 function generateStory() {
     // Get value from all input fields
-    
+    let noun = noun
 }
