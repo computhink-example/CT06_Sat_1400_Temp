@@ -24,7 +24,8 @@ function setup() {
     let offsetY = this.canvas.offsetTop;
 
     // Position input fields
-    nounField.position(width / 2 + offsetX, )
+    nounField.position(width / 2 + offsetX, height / 2 + offsetY);
+    
 }
 
 function draw() {
