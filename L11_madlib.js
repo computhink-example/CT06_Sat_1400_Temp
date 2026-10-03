@@ -20,8 +20,8 @@ function setup() {
     placeField = createInput();
 
     // Offset to canvas position
-let offsetX = this.canvas.offsetLeft;
-let offsetY = this.canvas.offsetTop;
+    let offsetX = this.canvas.offsetLeft;
+    let offsetY = this.canvas.offsetTop;
 
     // Position input fields
     nounField.position(width / 2 + offsetX, height * 0.2 + offsetY);
@@ -35,6 +35,10 @@ function draw() {
     // Reset canvas
     background(100);
 
+    // Offset to canvas position
+    let offsetX = this.canvas.offsetLeft;
+    let offsetY = this.canvas.offsetTop;
+    
     // Text beside input
     text("Enter a noun:", width * 0.2, height * 0.2 + offsetY)
     text("Enter a verb:", width * 0.2, height * 0.2 + offsetY + 50)
