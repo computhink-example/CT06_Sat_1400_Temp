@@ -28,7 +28,7 @@ function setup() {
 }
 
 function draw() {
-    background(0);
+    background(colourPicker.value());
 
     text(displayText, width / 2, height * 0.3);
 }
