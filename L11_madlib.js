@@ -9,6 +9,9 @@ function setup() {
     textSize(40);
     textAlign(CENTER, CENTER);
 
+    // Create input field
+    nounField = createInput();
+
 }
 
 function draw() {
