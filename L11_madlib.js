@@ -57,3 +57,6 @@ function buttonExample() {
     console.log("Button Clicked!");
 }
 
+function generateStory() {
+    
+}
