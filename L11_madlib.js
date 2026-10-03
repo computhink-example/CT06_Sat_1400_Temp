@@ -19,9 +19,9 @@ function setup() {
     adverbField = createInput();
     placeField = createInput();
 
-    // Position input fields
     let offsetX = this.canvas.offsetLeft;
-    let offsetY
+    let offsetY = this.canvas.offsetTop;
+    // Position input fields
 }
 
 function draw() {
