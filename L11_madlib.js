@@ -33,6 +33,7 @@ function setup() {
 
     // Create button
     submitButton = createButton("Generate Story");
+    placeField.position(width / 2 + offsetX, height * 0.2 + offsetY + 250);
 }
 
 function draw() {
