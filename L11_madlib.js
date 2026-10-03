@@ -66,8 +66,7 @@ function generateStory() {
     // python f-string (f"a {noun} is {verb}ing")
     // js templates `a ${noun} is ${verb}ing`
 
-    let story = `The ${adjective} ${noun} decided to ${verb} ${adverb}
-                 at the ${place}.`;
+    let story = `The ${adjective} ${noun} decided to ${verb} ${adverb} at the ${place}.`;
 
     console.log(story);
 }
