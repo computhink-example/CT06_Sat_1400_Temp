@@ -4,6 +4,9 @@ let adjectiveField;
 let adverbField;
 let placeField;
 
+let offsetX = this.canvas.offsetLeft;
+let offsetY = this.canvas.offsetTop;
+
 function setup() {
     createCanvas(600, 600);
 
@@ -20,8 +23,6 @@ function setup() {
     placeField = createInput();
 
     // Offset to canvas position
-    let offsetX = this.canvas.offsetLeft;
-    let offsetY = this.canvas.offsetTop;
 
     // Position input fields
     nounField.position(width / 2 + offsetX, height * 0.2 + offsetY);
