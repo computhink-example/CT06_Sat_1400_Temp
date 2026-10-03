@@ -22,7 +22,7 @@ function setup() {
 
     // Create colour picker
     colourPicker = createColorPicker();
-    colourPicker.position(width / 2, height * )
+    colourPicker.position(width / 2, height * 0.7);
 }
 
 function draw() {
