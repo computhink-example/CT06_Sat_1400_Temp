@@ -58,5 +58,6 @@ function buttonExample() {
 }
 
 function generateStory() {
+    // Get value from all input fields
     
 }
