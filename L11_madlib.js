@@ -1,4 +1,5 @@
-let 
+let nounField;
+let verbField;
 
 function setup() {
     createCanvas(600, 600);
