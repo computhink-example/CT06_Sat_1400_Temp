@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Arcane Assault</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --ink: #171922;
+      --paper: #f3e7c9;
+      --copper: #db8752;
+      --mint: #8dd9b3;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      min-height: 100vh;
+      margin: 0;
+      padding: 28px 16px 36px;
+      color: var(--paper);
+      background:
+        radial-gradient(ellipse at 50% 0%, #493342 0, transparent 55%),
+        repeating-linear-gradient(135deg, #1a1b24 0 2px, #20212b 2px 4px);
+      font-family: Georgia, "Times New Roman", serif;
+    }
+
+    main {
+      width: min(100%, 1000px);
+      margin: 0 auto;
+    }
+
+    header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 16px;
+      margin: 0 0 12px;
+    }
+
+    h1 {
+      margin: 0;
+      color: var(--paper);
+      font-size: clamp(24px, 4vw, 38px);
+      font-weight: 700;
+    }
+
+    header a { color: var(--mint); }
+
+    #game-canvas {
+      overflow: hidden;
+      width: 100%;
+      border: 1px solid #b17458;
+      background: var(--ink);
+      box-shadow: 0 18px 60px #08080bb8;
+    }
+
+    canvas {
+      display: block;
+      width: 100% !important;
+      height: auto !important;
+    }
+
+    footer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 8px 20px;
+      margin-top: 12px;
+      color: #d3c8b3;
+      font: 14px/1.5 Arial, sans-serif;
+    }
+
+    footer strong { color: var(--copper); }
+
+    @media (max-width: 600px) {
+      body { padding: 16px 8px 24px; }
+      header { align-items: flex-start; }
+      footer { font-size: 12px; }
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/p5.js"></script>
+  <script src="https://p5play.org/v3/planck.min.js"></script>
+  <script src="https://p5play.org/v3/p5play.js"></script>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Arcane Assault</h1>
+      <a href="index.html">Home</a>
+    </header>
+    <div id="game-canvas"></div>
+    <footer>
+      <span><strong>Move</strong> A / D &nbsp; <strong>Jump</strong> Space &nbsp; <strong>Aim / fire</strong> Mouse</span>
+      <span><strong>Weapons</strong> 1 / 2 / 3 &nbsp; <strong>Skills</strong> Q / W / E</span>
+    </footer>
+  </main>
+  <script src="L16_arcaneassault.js"></script>
+</body>
+</html>
